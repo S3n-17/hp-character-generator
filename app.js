@@ -171,7 +171,7 @@ function pet() {
             setTimeout(() => {
                 callstack();
                 resolve();
-            }, 2000);
+            }, 1000);
         });
     }
 
