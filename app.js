@@ -73,39 +73,16 @@ async function house_personality() {
     houseElement.innerText = `${x.house} (${x.emoji})`;
     if (x.house == "Gryffindor") {
         imgElement.style.backgroundImage = "url('g-removebg-preview.png')";
-        // document.body.style.background = "linear gradient(to top,rgb(116,0,1), rgb(0,0,0))";
-        // h1.style.color = "rgb(255, 255, 255)";
-        // h1.style.textShadow = "0 0 5px rgb(255, 255, 255)";
-        // character.style.color = "rgb(238,186,48)";
-        // character.style.textShadow = "0 0 5px rgb(238,186,48)";
     }
     else if (x.house == "Ravenclaw") {
         imgElement.style.backgroundImage = "url('r-removebg-preview.png')";
-        // document.body.style.background = "linear gradient(to top, rgb(14,26,64), rgb(0, 0, 0))";
-        // h1.style.color = "rgb(255, 255, 255)";
-        // h1.style.textShadow = "0 0 5px rgb(255, 255, 255)";
-        // character.style.color = "rgb(148,107,45)";
-        // character.style.textShadow = "0 0 5px rgb(238,186,48)";
     }
     else if (x.house == "Hufflepuff") {
         imgElement.style.backgroundImage = "url('h-removebg-preview.png')";
-        // document.body.style.background = "linear gradient(to top,rgb(255,231,0), rag(255, 255, 255))";
-        // h1.style.color = "rgb(0, 0, 0)";
-        // h1.style.textShadow = "0 0 5px rgb(255, 255, 255)";
-        // character.style.color = "rgb(71,64,0)";
-        // character.style.textShadow = "0 0 5px rgb(238,186,48)";
-        // sd.forEach((element) => {
-        //     element.style.color = "rgb(41, 20, 20)";
-        //     element.style.textShadow = "0 0 5px rgb(255, 255, 255)";
         // });
     }
     else if (x.house == "Slytherin") {
         imgElement.style.backgroundImage = "url('s-removebg-preview.png')";
-        // document.body.style.background = "linear gradient(to top,rgb(35,88,66), rgb(0, 0, 0))";
-        // h1.style.color = "rgb(255, 255, 255)";
-        // h1.style.textShadow = "0 0 5px rgb(255, 255, 255)";
-        // character.style.color = "rgb(255, 255, 255)";
-        // character.style.textShadow = "0 0 5px rgb(255, 255, 255)";
     }
     personalityElement.innerText = personalityByHouse[x.house][randint(0, personalityByHouse[x.house].length - 1)];
 
